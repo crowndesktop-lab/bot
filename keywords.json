@@ -1,0 +1,23 @@
+[
+  {
+    "keyword": "What are your spa package prices",
+    "reply": "We provide all kinds of antique body massage and spa services designed to help you relax and feel your best.\n\nBook Now & Get 20% OFF on special massage package !",
+    "mediaPath": "assets/spa-packages.png"
+  },
+  {
+    "keyword": "price",
+    "reply": "Our pricing depends on the service you need. Please tell us what you are looking for."
+  },
+  {
+    "keyword": "location",
+    "reply": "We are available online. Share your area and we will guide you from there."
+  },
+  {
+    "keyword": "hello",
+    "reply": "Hello! How can we help you today?"
+  },
+  {
+    "keyword": "help",
+    "reply": "Sure. Send us what you need help with and we will reply shortly."
+  }
+]

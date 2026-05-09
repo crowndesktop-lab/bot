@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-keyword-bot",
+  "version": "1.0.0",
+  "description": "A small WhatsApp Web QR bot that replies when messages contain trigger keywords.",
+  "main": "src/bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js",
+    "simulate": "node src/simulate.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  }
+}

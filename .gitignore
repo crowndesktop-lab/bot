@@ -1,0 +1,9 @@
+node_modules/
+.env
+.wwebjs_auth/
+.wwebjs_cache/
+qr.png
+server.out.log
+server.err.log
+bot.out.log
+bot.err.log
