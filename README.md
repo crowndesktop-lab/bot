@@ -24,6 +24,12 @@ Start the bot:
 npm start
 ```
 
+On your PC, keep it running in the background:
+
+```powershell
+Start-Process -FilePath "npm.cmd" -ArgumentList "start" -WorkingDirectory "C:\Users\HEY!\OneDrive\Documents\New project\whatsapp-keyword-bot" -WindowStyle Hidden
+```
+
 ## Connect By QR
 
 When the bot starts, it creates:
@@ -42,6 +48,12 @@ Open that image and scan it from WhatsApp:
 After login, the session is saved in `.wwebjs_auth`, so you usually do not need to scan again.
 
 Keep the bot running while you want auto-replies to work.
+
+You can check local status in a browser:
+
+```text
+http://localhost:3000/
+```
 
 ## Edit Replies
 
